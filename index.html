@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафарня</title>
+</head>
+<body>
+    <header>
+        <h1>Кафарня</h1>
+        <a href="#">Головна</a>
+        <a href="#">Меню</a>
+        <a href="#">Галерея</a>
+        <a href="#">Бронювання</a>
+    </header>
+
+    <main>
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/1280px-A_small_cup_of_coffee.JPG?utm_source=ru.wikipedia.org&utm_campaign=index&utm_content=thumbnail">
+
+        <h1>Насолодись кавою</h1>
+        <p>Смачна кава</p>
+
+        <h1>Меню</h1>
+        <ol>
+            <li>Латте</li>
+            <li>Американо</li>
+            <li>Капучино</li>
+            <li>Круасан</li>
+        </ol>
+
+        <h1>Галерея</h1>
+        <img src="https://caffeducale.com.au/cdn/shop/files/Caffe-Ducale-Market-Pavilion-m.jpg?v=1745317566&width=1667">
+        <img src="https://images.pexels.com/photos/29845005/pexels-photo-29845005/free-photo-of-cozy-modern-cafe-interior-with-seating-and-pastries.jpeg?cs=tinysrgb&dpr=1&w=500">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/0e/77/5b/front-of-the-building.jpg?w=500&h=-1&s=1">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/15/5f/59/caption.jpg?w=500&h=-1&s=1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj8JndmzfYVHRxbVAj2A4lZJwn9An-6I1wYxLpRsiIIY5bF1DTuptWL7_Z&s=10">
+
+        <div class="form-container">
+            <form action="#" method="POST">
+
+                <h2>Кафарня</h2>
+
+                <p class="description">
+                    Забронюйте столик та насолоджуйтеся моментом!
+                </p>
+
+                <div class="form-group">
+                    <label for="name">Ваше ім'я</label>
+                    <input type="text" id="name" name="name"
+                    placeholder="Введіть ваше ім'я" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Номер телефону</label>
+                    <input type="tel" id="phone" name="phone"
+                    placeholder="+380 XX XXX XX XX" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Дата бронювання</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="time">Час бронювання</label>
+                    <select id="time" name="time" required>
+                        <option value="">Оберіть час</option>
+                        <option>10:00</option>
+                        <option>11:00</option>
+                        <option>12:00</option>
+                        <option>13:00</option>
+                        <option>14:00</option>
+                        <option>15:00</option>
+                        <option>16:00</option>
+                        <option>17:00</option>
+                        <option>18:00</option>
+                        <option>19:00</option>
+                        <option>20:00</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="guests">Кількість гостей</label>
+                    <select id="guests" name="guests" required>
+                        <option value="">Оберіть кількість</option>
+                        <option>1 гість</option>
+                        <option>2 гості</option>
+                        <option>3 гості</option>
+                        <option>4 гості</option>
+                        <option>5 гостей</option>
+                        <option>6 гостей</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="comment">Додаткові побажання</label>
+                    <textarea id="comment" name="comment"
+                    placeholder="Наприклад, столик біля вікна..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">
+                    Забронювати столик
+                </button>
+
+                <p class="footer-text">
+                    Чекаємо на вас! ❤️
+                </p>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>@Кафарня.</p>
+    </footer>
+</body>
+</html>
